@@ -1,2 +1,2 @@
 #!/bin/bash
-find .  -type f -printf "%t - %p\n" | sorn -n | head -l | tail -l
+ls -tl | head
